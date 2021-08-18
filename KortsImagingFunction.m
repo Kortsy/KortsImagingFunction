@@ -1,21 +1,15 @@
 %Andrew Korts
 %Imaging Function
 %The goal of this project is to combine many of the latter parts of the
-%OPT261 curriculum. This code will allow the user to define a lens.
-%Assuming it is diffraction limited, the user will create a spreadsheet
+%Rochester OPT261 curriculum. This code will allow the user to define a lens.
+%Assuming the system is diffraction limited, the user will create a spreadsheet
 %with coordinates that define a source plane (point sources with respective
-%irradiances. The code will take all of this information and create an
-%array of plots relating to the detector plane.
+%irradiances. The code will take all of this information and, using a systems approach,
+%and point spread functions, create an array of plots relating to the detector plane.
 
 %A goal for an expansion of this project would allow the user to upload an
 %image, scan that image, and display it's resultant image in the detector
 %plane.
-
-%%Possible issues:
-%For finite imaging, it may always need to be assumed that the detector is
-%being placed at the plane onto which the source is being imaged. Is this a
-%problem? I almost feel as though that's the point of focusing an imaging
-%system
 
 %Inputs
 %The inputs for this program are going to be a selection variable that
